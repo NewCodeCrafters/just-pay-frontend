@@ -1,11 +1,12 @@
-import React from 'react'
+import Main from "../components/Main"
+import Products from "../components/Products"
 
 const Home = () => {
   return (
-    <main>
-        <h2>Just borrow</h2>
-        <p>Just borrow is a fintech app that gives loan out to users</p>
-    </main>
+    <body>
+    <Main />
+    <Products />
+    </body>
   )
 }
 
